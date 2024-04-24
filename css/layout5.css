@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+}
+.main-header{
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    width: 45%;
+    height: 100%;
+    background-image: linear-gradient(#E55D87,#5FC3E4);
+    float: left;
+}
+.logo h2{
+    color: black;
+    line-height: 60px;
+    text-align: center;
+}
+.menu{
+    width: 53%;
+    height: 100%;
+    background-image: linear-gradient(#E55D87,#5FC3E4);
+    float: right;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    line-height: 60px;
+    padding: 5px;
+    font-size: 1em;
+}
+.images{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+}
+clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cards{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+.card-data{
+    width: 32.5%;
+    height: 100%;
+    float: left;
+}
+.card-data:nth-child(2){
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.card-data .img{
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(#E55D87,#5FC3E4);
+    border-radius: 7px;
+}
+.img img{
+    width: 55%;
+    height: 60%;
+    border-radius: 50%;
+    margin:65px;
+
+}
+.card-data h3{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-data p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+.know-more{
+    border-radius: 5px;
+    background-image: linear-gradient(#E55D87,#5FC3E4);
+    color: black;
+    width: 50%;
+    height: 10%;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.know-more:hover{
+    background-image: linear-gradient(#e80a50,#424647);
+    color: rgb(7, 52, 166);
+} 
+.social{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-image: linear-gradient(#E55D87,#5FC3E4);
+    border-radius: 5px;
+}
+.social i{
+    width: 60px;
+    height: 50px;
+    color: black;
+    padding: 10px;
+}

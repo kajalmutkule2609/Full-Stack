@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    background-color: rgb(112, 138, 138);
+    border: solid 2px black;
+    height: 350px;
+    
+}
+.subdiv{
+    background-color: rgb(181, 108, 171);
+    border: solid 2px black;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+}
+.s1{
+    background-color: azure;
+    border: solid 1px brown;
+    height: 30%;
+    width: auto;
+    margin: 3% 3% 3% 3%;
+}

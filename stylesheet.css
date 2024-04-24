@@ -1,0 +1,36 @@
+/* stylesheet.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+    columns: 30%; /* Adjust alignment of columns */
+}
+
+.sub {
+    display: flex;
+    flex-direction: row; /* Arrange images vertically */
+    grid-row: 3; /* Center align images */
+    gap: 20px; /* Adjust spacing between images */
+    height: 40%;
+}
+
+.image-container {
+    border: 2px solid #5a0808;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container h2 {
+    color: #5a0808;
+    font-size: 18px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}

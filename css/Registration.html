@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./Registration.css">
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="form-fields">
+            <label for="FirstName">First Name:</label>
+            <input type="text" class="name" placeholder="Enter First Name here" autocomplete="off">
+            <label for="MiddleName">Middle Name:</label>
+            <input type="text" class="name" placeholder="Enter Middle Name here" autocomplete="off">
+            <label for="LastName">Last Name:</label>
+            <input type="text" class="name" placeholder="Enter Last Name here" autocomplete="off">
+            <label for="Contact">Contact No:</label>
+            <input type="number" class="number" placeholder="Enter Your contact Number" autocomplete="off">
+            <label for="Email">Email:</label>
+            <input type="email" placeholder="Enter Email Address Here" autocomplete="off" id="email">
+            <label for="State">State:</label>
+            <select name="State" id="state"></select>
+            <label for="City">City:</label>
+            <select name="City" id="city"></select>
+            <label for="Village">Village:</label>
+            <select name="village" id="village"></select>
+            <label for="DOB">Date of Birth:</label>
+            <input type="datetime" id="dob" placeholder="Enter in DD/MM/YYYY format" autocomplete="off">
+            <label for="Gender" id="gen">Gender:</label>
+            <label for="Male">Male</label>
+            <input type="radio" name="M" id="gender">
+            <label for="Female">Female</label>
+            <input type="radio" name="F" id="gender">
+            <label for="other">other</label>
+            <input type="radio" name="N" id="gneder">
+            <button type="submit"><h3>Submit</h3></button>
+        </div>
+    </div>
+</body>
+</html>
